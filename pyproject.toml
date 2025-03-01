@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "pandas>=2.2.3",
+    "polars>=1.22.0",
     "selenium>=4.28.1",
 ]
 
@@ -23,5 +23,7 @@ select = [
     "I",
     "ISC",
     "ICN",
+    "PERF",
+    "RUF",
     "W",
 ]
